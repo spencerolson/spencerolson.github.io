@@ -1,0 +1,12 @@
+body{background: gray; font-family: monospace;}
+
+.title {
+	font-family: monospace;
+	width: 100 px;
+	height: 50px;
+	background: purple;
+}
+
+#footer {
+	background: white;
+}
