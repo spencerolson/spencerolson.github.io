@@ -1,0 +1,22 @@
+#header{
+	margin: auto;
+	width: auto;
+	height: 50px;
+}
+
+#content{
+	margin: auto;
+	width: auto;
+	height: auto;
+	background-color: #DDDDDD;
+	font-family: georgia;
+}
+
+.picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: auto;
+
+}
