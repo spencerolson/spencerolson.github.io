@@ -1,3 +1,8 @@
+html{
+	font-family: Helvetica;
+	background-color: #B24C34
+}
+
 #header{
 	margin: auto;
 	width: auto;
@@ -6,10 +11,9 @@
 
 #content{
 	margin: auto;
-	width: auto;
+	width: 880px;
 	height: auto;
-	background-color: #DDDDDD;
-	font-family: georgia;
+	background-color: #CCFF7E;
 	padding: 30px 100px;
 }
 
