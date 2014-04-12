@@ -10,7 +10,7 @@
     font-style: normal;
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px){
  
   .nav, .jump.up, .jump.down {
     display: none
