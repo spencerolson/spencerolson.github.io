@@ -9,14 +9,23 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@media screen and (max-width: 640px) {
+ 
+  .nav, .jump.up, .jump.down {
+    display: none
+  }
+  
+  // and so on...
+ 
+}
 body {
   font-family: 'Balthazar', serif;
   background-color: rgb(241, 241, 241);
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2em;
-  margin: 0px auto;
-  min-width: 960px;
+  margin: 0em auto;
   width: 100%;
 }
 
