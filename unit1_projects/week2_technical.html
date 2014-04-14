@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Classes vs. IDs</title>
+		<link rel= "stylesheet" href= "stylesheets/blogpost.css" type= "text/css">
+	</head>
+
+	<body>
+		<div id= "header">
+			<center><h1>CSS: Classes vs. IDs</h1></center>
+		</div>
+
+		<div id= "content">
+			<h3> <center>Classes</center></h3>
+				<img src= "images/githubhomepage.png" alt= "My GitHub site" class = "picture">	
+				<p> Classes are used for instances where you need to create a 'template' of sorts that you will need to re-use. For example, in the image above, I sized and formatted all the logos at the bottom of the page using a class. Since I wanted all of the logos to be the same height regardless of the original image size, I created a class called .logoimage to equally size them all.</p>
+
+				<img src= "images/logoimage.png" alt= "logo image" class = "picture">
+
+				<p> This way, I dont have to re-type the dimensions each time I add a new logo. Instead, I just make sure I assign the class .logoimage to any logo I want to add. Simple!</p>
+
+				<h3> <center>IDs</center></h3>
+
+				<p> IDs, on the other hand, should be used when you need to do something unique on your page that will not need to be re-used. For instance, in the original image at the top of the page, the formatting for the banner image at the top (the nature photo) is unique; since I'll only have one banner image on my site and it needs to be styled a certain way, I used an ID. In my instance, I named the ID #bannerphoto.</p>
+
+				<img src= "images/bannerphoto.png" alt= "banner photo" class = "picture">
+
+				<p> And those are the basics of Classes vs. IDs. Hope this helps! </p>
+
+				</br>
+				<p>Spencer</p>
+	
+		</div>
+
+	</body>
+</html>
