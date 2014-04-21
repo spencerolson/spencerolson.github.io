@@ -58,6 +58,14 @@ a{
 	float: right;
 	margin-right: 10%
 }
+
+#week3 {
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+
+}
+
 #bannerphoto {
 	width: 100%;
 	height: 100%;
