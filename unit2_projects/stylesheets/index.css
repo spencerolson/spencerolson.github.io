@@ -49,27 +49,17 @@ a{
 	font-size: 1.50em
 }
 
-#week1 {
-	float: left;
-	margin-left: 10%
-}
-
-#week2 {
-	float: right;
-	margin-right: 10%
-}
-
-#week3 {
+.leftbox {
 	float: left;
 	margin-left: 10%;
 	margin-top: 20px;
-
 }
 
-#week4 {
-	float: right;
-	margin-right: 10%;
+
+.box {
+	float: center;
 	margin-top: 20px;
+	margin-bottom: 20px;
 
 }
 

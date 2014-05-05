@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ruby Classes</title>
+		<img src = "images/textured_backgrounds/2.jpg" id = "bg" alt = "">
+		<link rel= "stylesheet" href= "stylesheets/blogpost.css" type= "text/css">
+	</head>
+
+	<body>
+		<div id= "header">
+			<center><h1>Week 5 Technical Blog: Ruby Classes </h1></center>
+		</div>
+
+		<div id= "content">
+			<p> This week, we've learned a lot about creating and using Classes in Ruby. So what better way to cover what we've learned than to do an example? For this example, we're going to create a Class called Car that we'll use to make Car objects.</p>
+			<h3> <center>Creating the Car class and the initialize method</center></h3>
+				<p> First, we'll need to define our new class using the syntax Class Car. Pretty simple, right? Next, we need to implement the initialize method that will be called when a new Car object is created. For our example, we'll have the initialize method take 4 parameters: model_name, color, years_old, and max_speed. For each one of these parameters, we will create an instance variable with the same name (but preceeded by the @ sign). Instance variables have a scope that extends across the entire class and are unique for each instance of the class that is created. In other words, each Car that we create will have it's own unique model_name, color, years_old, and max_speed attributes. Finally, within our initialize method, we'll also increment our class variable (preceeded by two @ signs) total_cars by 1. Unlike instance variables, class variables are shared by all instances of the class. In other words, the total_cars variable is shared by all cars, as opposed to each car having its own unique 'version' of total_cars. </p>
+				<img src= "images/week5technical1.png" alt= "Car Class" class = "picture">	
+				
+
+			<h3> <center>Creating the paint_car method</center></h3>
+				<p> Next, we'll create a method called paint_car. The method will take a String with a paint_color as a parameter, and will set our @color instance variable equal to that value. Since our @color instance variable is available anywhere in our class, we can refer to it from our paint_car method without having to pass it in as a parameter. In contrast, our paint_color variable is a local variable, and it is only accessible within our paint_car method.</p>
+				<img src= "images/week5technical2.png" alt= "paint_car method" class = "picture">
+
+				<h3> <center>Creating the color method</center></h3>
+				<p> Finally, we'll create a color method. This will simply return the color of the car. We can return the color of the by returning our @color instance variable. </p>
+				<img src= "images/week5technical3.png" alt= "color method" class = "picture">
+
+				<h3> <center>Testing our class out</center></h3>
+				<p> Let's create a car, check its color using the .color method, change its color using the .paint_car method, and then call the .color method again to make sure the color has changed. </p>
+				<img src= "images/week5technical4.png" alt= "color method" class = "picture">
+
+				<p> That concludes this blog! Hope you learned some new information about Ruby Classes and variables. </p>
+			
+		</div>
+
+	</body>
+</html>
