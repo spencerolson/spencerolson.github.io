@@ -1,15 +1,17 @@
 class Encryption
 
-  def encrypt (message) #"hello"
+  def encrypt (message) #"hello world"
     message = message.downcase
     alphabet = ('a'..'z').to_a
-    encrypted_message = ""
 
-    message.chars.reduce("") do |encrypted_message, letter| 
+    message.chars.inject("") do |encrypted_message, character|
 
-      index_in_alphabet = alphabet.index(letter)
-      encrypted_message << alphabet[index_in_alphabet - 13] 
-    end
+      if alphabet.include? character
+        encrypted_message << alphabet[alphabet.index(character) - 13]
+      else
+        encrypted_message << character
+      end
+
+    end   
   end
-
 end
