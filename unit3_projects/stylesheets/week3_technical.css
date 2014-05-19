@@ -1,0 +1,80 @@
+html{
+	font-family: Helvetica;
+	background-color: #AABBBB;
+	min-height: 1000px;
+}
+
+
+header{
+	position: relative;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+section {
+	top: 10px;
+	width: 90%;
+	min-height: 175px;
+	background-color: #2A4480;
+	padding: 2%;
+	border-radius: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer{
+	clear: top;
+	position: fixed;
+	bottom: 0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding: 1%;
+	width: 100%;
+}
+
+.logoimage{
+	position: relative;
+	bottom: 0px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a{
+	color: #BBBBBB;
+}
+
+.blog_content{
+	color: #EEEEEE;
+	font-size: 1.15em
+}
+
+#week1 {
+	float: left;
+	margin-left: 10%
+}
+
+#week2 {
+	float: right;
+	margin-right: 10%
+}
+#bannerphoto {
+	width: 100%;
+	height: 100%;
+}
+
+#pagetitle {
+	top: 0px;
+	width: 100%;
+	opacity: 0.5;
+}
+
+a:hover{
+	color:white;
+}
+
+#email{
+	float:right;
+	margin-right: 30px;
+}
