@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title> The Ruby Enumerables Cheatsheet</title>
+		<link rel= "stylesheet" href= "stylesheets/cheatsheet.css" type= "text/css">
+		<link rel="shortcut icon" href="images/favicon.ico">
+	</head>
+
+	<body>
+		<header> 
+			<b>The Ruby Enumerables Cheatsheet</b>
+		</header>
+
+		<table>
+
+			<thead>
+				<tr>
+					<th>method name</th>
+					<th>method syntax</th>
+					<th>description</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td> .each</td>
+					<td> each {|item| block} --> ary </td>	
+					<td> Calls the given <em>block once</em> for each element in self, passing that element as a parameter.</td>
+				</tr>
+
+				<tr>
+					<td> .each_with_index</td>
+					<td> each_with_index(*args){|obj, i| block} --> enum</td>	
+					<td> Calls <em>block</em> with two arguments, the item and its index, for each item in <em>enum</em>. Given arguments are passed through to each().</td>
+				</tr>
+
+				<tr>
+					<td> .inject (or .reduce)</td>
+					<td> inject(initial){|memo, obj| block} --> obj </td>	
+					<td> Combines all elements of <em>enum</em> by applying a binary operation, specified by a block or a symbol that names a method or operator. For each element in <em>enum</em> the <em>block</em> is passed an accumulator value (<em>memo</em>) and the element. The result becomes the new value for <em>memo</em>. At the end of the iteration, the final value of <em>memo</em> is the return value for the method.</td>
+				</tr>
+
+				<tr>
+					<td> .map (or .collect)</td>
+					<td> map {|obj| block} --> array</td>	
+					<td> Returns a new array with the results of running <em> block </em> once for every element in <em>enum</em>. </td>
+				</tr>
+
+				<tr>
+					<td> .select</td>
+					<td> select {|obj| block} --> array</td>	
+					<td> Returns an array containing all elements of <em> enum</em> for which the given <em>block</em> return a true value. </td>
+				</tr>
+
+				<tr>
+					<td> .sort</td>
+					<td> sort {|a,b| block} --> array</td>	
+					<td> Returns an array containing the items in <em>enum</em> sorted. Returns -1, 0, or 1 depending on the comparison between <em>a</em> and <em>b</em>.  </td>
+				</tr>
+			</tbody>
+
+		</table>
+		
+		<footer>
+			<a href = "https://www.facebook.com/spencer.olson.96"> <img class = "logoimage" src= "../unit1_projects/images/facebookicon.png"> </a>
+			<a href = "https://twitter.com/spencerolson"><img class = "logoimage" src= "../unit1_projects/images/twittericon.png"> </a>
+			<a href = "https://github.com/spencerolson"><img class = "logoimage" src= "../unit1_projects/images/githubicon.png"></a>
+			<a href = "http://www.linkedin.com/pub/spencer-olson/31/878/169/"><img class = "logoimage" src= "../unit1_projects/images/linkedinicon.png"></a>
+			<a href= "mailto:spence1818@gmail.com"><img class = "logoimage" id = "email" src= "../unit1_projects/images/maillogo.png"></a>
+		</footer>
+	</body>
+
+</html>

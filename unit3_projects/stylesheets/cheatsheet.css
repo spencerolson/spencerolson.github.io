@@ -1,0 +1,43 @@
+html{
+ font-family: helvetica;
+}
+
+table, th, td {
+border: 1px solid black;
+background-color: #DDDDDD;
+}
+
+table {
+width:100%;
+}
+
+td{
+text-align:left;
+}
+
+header{
+	font-size: 200%;
+}
+
+footer{
+	clear: top;
+	position: fixed;
+	bottom: 0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding: 1%;
+	width: 100%;
+}
+
+.logoimage{
+	position: relative;
+	bottom: 0px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#email{
+	float:right;
+	margin-right: 30px;
+}
