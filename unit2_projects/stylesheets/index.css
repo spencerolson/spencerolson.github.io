@@ -14,7 +14,6 @@ header{
 
 section {
 	top: 10px;
-	position: relative;
 	width: 33.3333%;
 	min-height: 175px;
 	background-color: #2A4480;
@@ -57,7 +56,6 @@ a{
 
 
 .box {
-	float: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 
